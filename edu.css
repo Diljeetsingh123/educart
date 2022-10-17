@@ -1,0 +1,331 @@
+.navbars{
+display: flex;
+justify-content: space-between;
+padding: 5px;
+align-items: center;
+}
+.logo{
+    display: flex;
+    margin-left: 10%;
+}
+.logo p{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+#logobook{
+    margin-right: 10px;
+    margin-top: 12px;
+    font-size: 25px;
+    color: rgb(250, 230, 7);
+}
+.nav-links{
+   text-align: right;
+   margin-right: 10%;
+}
+.nav-links ul{
+    display: inline-block;
+    list-style: none;
+}
+.nav-links ul li{
+    display: inline-block;
+    color:black;
+    padding-right: 20px;
+    font-size:20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+.nav-links ul li:hover{
+    color: rgb(250, 230, 7);
+}
+.infoin{
+    display: inline-block;
+   
+    text-align: center;
+    margin-left: 32%;
+    margin-right: 25%;
+    margin-top: 20px;
+}
+.infoin p{
+   margin-top:20%;
+   text-transform: uppercase;
+   font-weight:600;
+}
+.infoin h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.info-links{
+    display: flex;
+    margin-left: 30%;
+}
+.learn{
+    display: inline-block;
+    background: rgb(2, 2, 36);
+    width: 120px;
+        border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+    margin-left: -20px;
+}
+.see{
+    display: inline-block;
+    background: rgb(250, 230, 7);
+    width: 120px;
+    border-radius: 5px;
+    margin-left: 20px;
+    padding: 3px;
+    cursor: pointer;
+}
+.learn a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(250, 230, 7);
+}
+.see a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    color:rgb(2, 2, 36);
+}
+.main{
+    display: block;
+    margin-top:5%;
+    text-align: center;
+}
+.feature h1{
+    font-size: 30px;
+}
+.main-info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    
+}
+.icon{
+    text-align: left;
+   ;
+font-size: 25px;
+color: rgb(2, 2, 36);
+
+}
+.card1{
+    display: inline-block;
+    background:rgb(226, 220, 221);
+    padding: 10px;
+}
+.card1-info{
+    color:rgb(2, 2, 36) ;
+    text-align: left;
+}
+.card1-info h3{
+    font-size: 20px;
+    text-align: left;
+   
+}
+.popular{
+    text-align: center;
+    margin-top: 5%;
+}
+.ourPop h1{
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(2, 2, 36);
+}
+.ourPop p{
+    font-size: 12px;
+}
+.cardss{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.card-bot{
+    display: flex;
+    justify-content: space-between;
+}
+.card-body a{
+
+    margin-left:-180px;
+    margin-top: 20px;
+    padding: 5px;
+    width: 150px;
+    text-decoration: none;
+    color: white;
+    background: rgb(2, 2, 36);
+    border-radius: 5px;
+    font-size: 15px;
+}
+.card-title{
+    padding-top: 30px;
+}
+.personimg img{
+    width: 45px;
+    display: inline-block;
+    border-radius: 50%;
+    
+    
+}
+.personimg{
+    display: flex;
+    margin-left: 20px;
+}
+.personimg p{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.likes i{
+    margin-right: 5px;
+}
+.offer{
+    display: flex;
+    justify-content: space-around;
+     height: 400px;
+    background-color: rgb(2, 2, 36);
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+}
+.register{
+    display: inline-block;
+    height: 200px;
+    text-align: left;
+    
+    margin-top:60px;
+}
+.register h1{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.register p{
+    font-size: 12px;
+}
+.time{
+    display: flex;
+    justify-content: space-around;
+    margin-top:40px;
+}
+.timebox{
+    display: inline-block;
+    background:rgb(67, 61, 61);
+    width: 80px;
+    padding: 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.login{
+    display: inline-block;
+    margin-top:40px ;
+    height: 300px;
+    width: 300px;
+    border:1px solid rebeccapurple;
+background: white;
+    
+}
+
+.login h1{
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: 600;
+    color: rgb(2, 2, 36);
+}
+.login p{
+    font-size: 15px;
+    color:rgb(174, 165, 165);
+    font-weight: 600;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+}
+.details input{
+   margin-left: 30px;
+   margin-top: 10px;
+   border: 1px solid transparent;
+    width: 80%;
+    border-bottom: 1px solid rgb(221, 213, 213);
+}
+.submit{
+    margin-top: 20px;
+}
+.submit button{
+    width: 80%;
+    border: none;
+    padding: 10px;
+    background-color: rgb(250, 230, 7);
+    color: rgb(2, 2, 36);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.footer{
+    margin-top:10%;
+    background: rgb(2, 2, 36);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10%;
+}
+.top{
+    margin-top: 60px;
+    display: inline-block;
+}
+.top h4{
+    font-size: 15px;
+}
+.footer-link{
+    margin-top: 20px;
+}
+.footer-link ul li{
+    list-style: none;
+    margin-left: -35px;
+    padding-top: 10px;
+    font-size: 13px;
+    
+}
+.footer-link ul li a{
+    color:gray;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.footer-link ul li a:hover{
+           color: rgb(250, 230, 7);
+}
+.news_in{
+    padding-top: 20px;
+    
+}
+.news_in p{
+    color: gray;
+}
+.input input{
+    background: rgb(67, 61, 61);
+    border: none;
+    color: white;
+    padding: 5px;
+}
+.subs button{
+    background: rgb(250, 230, 7);
+    padding: 5px;
+    width: 100px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+.subs button:hover{
+background: red;
+color: white;
+}
